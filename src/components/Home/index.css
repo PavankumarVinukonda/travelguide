@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #eef4f7;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-heading {
+  align-self: center;
+  border-bottom: blue solid 1px;
+}
+
+.travel-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 80vw;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100vw;
+}
